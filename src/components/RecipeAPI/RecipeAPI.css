@@ -1,9 +1,9 @@
 .recipe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .recipe_container {
@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 480px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,15 +22,15 @@
     font-size: 45px;
     color: #4cd475;
     font-family: "Arial Black", Gadget, sans-serif;
-    text-shadow: 0px 0px 0 rgb(53,189,94),
-                 1px 1px 0 rgb(30,166,71),
-                 2px 2px 0 rgb(7,143,48),
-                 3px 3px 0 rgb(-16,120,25),
-                 4px 4px 0 rgb(-39,97,2),
-                 5px 5px  0 rgb(-62,74,0),
-                 6px 6px 5px rgba(0,0,0,0),
-                 6px 6px 1px rgba(0,0,0,0.5),
-                 0px 0px 5px rgba(0,0,0,.2);
+    text-shadow: 0px 0px 0 rgb(53, 189, 94),
+        1px 1px 0 rgb(30, 166, 71),
+        2px 2px 0 rgb(7, 143, 48),
+        3px 3px 0 rgb(-16, 120, 25),
+        4px 4px 0 rgb(-39, 97, 2),
+        5px 5px 0 rgb(-62, 74, 0),
+        6px 6px 5px rgba(0, 0, 0, 0),
+        6px 6px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 5px rgba(0, 0, 0, .2);
 }
 
 .recipe_searchForm {
@@ -44,40 +44,40 @@
     flex-wrap: wrap;
     padding: 8px;
     gap: 5px;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 1.5px );
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .recipe_submit {
-  width: 100px;
-  padding: 8px 16px;
-  font-size: 15px;
-  margin-left: 6px;
-  background-color: rgb(0, 132, 255);
-  border: 2px solid rgb(0, 132, 255);
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  outline: none;
-  text-align: center;
-  transition: all ease 300ms;
+    width: 100px;
+    padding: 8px 16px;
+    font-size: 15px;
+    margin-left: 6px;
+    background-color: rgb(0, 132, 255);
+    border: 2px solid rgb(0, 132, 255);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    transition: all ease 300ms;
 }
 
 .recipe_submit:hover {
-  background-color: white;
-  color: rgb(0, 132, 255);
+    background-color: white;
+    color: rgb(0, 132, 255);
 }
 
 .recipe_recipes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
-  height: auto;
-  padding: 25px;
-  width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    height: auto;
+    padding: 25px;
+    width: 90%;
 }
 
 @media screen and (max-width: 1300px) {

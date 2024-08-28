@@ -1,16 +1,13 @@
 .card_container {
-    border: 4px inset white;
-    box-shadow: inset 20px 20px 60px #c5c5c5, 
-                inset -20px -20px 60px #ffffff; 
     border-radius: 1.5rem;
     padding-bottom: 0;
     position: relative;
 }
 
-/* .card_container:hover {
+.card_container:hover {
     transform: translateY(-5px);
     transition: all .5s ease-in-out;
-} */
+}
 
 .card_content {
     height: 190px !important;
@@ -39,7 +36,7 @@
     transition: all ease 300ms;
 }
 
-.card_btn_viewRecipe:hover {  
+.card_btn_viewRecipe:hover {
     background-color: rgb(255, 255, 255) !important;
     color: rgb(0, 132, 255) !important;
 }

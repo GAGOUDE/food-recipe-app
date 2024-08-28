@@ -13,24 +13,24 @@ export default function RecipeCard({ recipe }) {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="200"
+          height="190"
           image={recipe["recipe"]["image"]}
           alt={recipe["recipe"]["label"]}
         />
         <CardContent className='card_content'>
-          <Typography 
-            gutterBottom 
-            variant="h6" 
-            component="div" 
+          <Typography
+            gutterBottom
+            variant="h6"
+            component="div"
             align="center"
-            style={{fontWeight: 'bold'}}
-            >
+            style={{ fontWeight: 'bold' }}
+          >
             {recipe["recipe"]["label"]}
           </Typography>
           <Typography variant="body2" color="text.dark">
             Calories : <Chip label={Number(recipe["recipe"]["calories"]).toFixed(2)} />
           </Typography>
-          
+
         </CardContent>
       </CardActionArea>
       <CardActions className='card_btn_container'>
@@ -48,17 +48,3 @@ export default function RecipeCard({ recipe }) {
     </Card>
   );
 }
-
-
-// export default function RecipeCard({ recipe }) {
-//     return (
-//         <div
-//             className='recipeCard'
-//             onClick={() => {
-//                 window.open(recipe["recipe"]["url"]);
-//             }}>
-//             <img className='recipeCard_image' src={recipe["recipe"]["image"]} alt="images" />
-//             <p className='recipeCard_name'>{recipe["recipe"]["label"]}</p>
-//         </div>
-//     );
-// }
