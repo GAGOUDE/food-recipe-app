@@ -7,7 +7,7 @@ import TextField from '@mui/material/TextField';
 import env from 'react-dotenv';
 
 function RecipeAPI() {
-    const [query, setQuery] = useState("riz");
+    const [query, setQuery] = useState("pizza");
     const [recipes, setRecipes] = useState([]);
 
     let API_ID = env.REACT_APP_EDAMAM_API_ID;
